@@ -38490,7 +38490,7 @@ var render = function() {
         [
           _c(
             "transition",
-            { attrs: { name: "slide-fade", mode: "out-in" } },
+            { attrs: { name: "slide-fade", mode: "in-out" } },
             [_c("router-view")],
             1
           )
