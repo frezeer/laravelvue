@@ -1,23 +1,24 @@
 <template>
 
-
   <div>
-
     <!-- Navbar -->
-    <Navbar></Navbar>
+    <Navbar :ruta="ruta" ></Navbar>
     <!-- /.navbar -->
 
      <!-- Main Sidebar Container -->
-    <Sidebar></Sidebar>
+    <Sidebar :ruta="ruta" ></Sidebar>
     
      <!-- Content Wrapper. Contains page content -->
-     <Content></Content>
+     <div class="content-wrapper">
+            <transition name="slide-fade" mode="out-in">
+                <router-view></router-view>
+            </transition>
+     </div>
+
      <!-- /.content -->
 
-    <Footer></Footer>
-
-
-    <!-- Content Wrapper. Contains page content -->
+  <Footer></Footer>
+  <!-- Content Wrapper. Contains page content -->
   <!-- /.content-wrapper -->
 
   <!-- Control Sidebar -->
@@ -39,6 +40,7 @@
   import Footer  from './plantilla/Footer'
 
 export default {
+    props: ['ruta'],
     components: { Navbar, Sidebar, Content, Footer }
 }
 </script>

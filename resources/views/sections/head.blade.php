@@ -10,7 +10,7 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{ asset('/adminlte/plugins/fontawesome-free/css/all.min.css') }}">
 
-  <link rel="stylesheet" href="{{ asset('/css/plantilla.css') }}">
+  <link rel="stylesheet" href="{{ asset('css/plantilla.css') }}">
   <!----LARAVEL VUE--->
   <script src="{{ asset('js/app.js') }}" defer></script>
 

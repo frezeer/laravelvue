@@ -32,5 +32,6 @@ Vue.component('App', require('./components/App.vue').default);
 import router from './route'
 
 const app = new Vue({
-    el: '#app'
+    el: '#app',
+    router
 });

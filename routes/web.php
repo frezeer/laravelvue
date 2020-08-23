@@ -11,6 +11,4 @@
 |
 */
 
-Route::get('/', function () {
-    return view('app');
-});
+Route::get('/{optional?}', function () { return view('app'); })->name('basepath');

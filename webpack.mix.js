@@ -15,6 +15,7 @@ const mix = require('laravel-mix');
 mix.styles([
    '/resources/vendor/css/all.min.css',
    '/resources/vendor/css/aldminlte.min.css',
+   '/resources/vendor/css/config.css',
 ], '/public/css/plantilla.css')
 .js('resources/js/app.js','public/js'); //JQUERY BOOTSRAP , VUEJS
 
