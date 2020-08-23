@@ -1,12 +1,4 @@
 <template>
-<div class="content-header">
-     <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m0 text-dark">Usuario</h1>
-          </div>
-        </div>
-      </div><!-- /.container-fluid -->
       <div>
         <div class="content-header">
             <div class="container-fluid">
@@ -110,7 +102,7 @@
                                                             <img src="/img/avatar.png"  class="profile-avatar-img img-fluid img-circle">
                                                         </li>
                                                     </template>
-                                                    <template v-else>
+                                                    <template >
                                                         <li class="user-block">
                                                             <img  class="profile-avatar-img img-fluid img-circle">
                                                         </li>
@@ -187,7 +179,6 @@
             </div>
         </div>
     </div>
-</div>  
 </template>
 
 <script>
