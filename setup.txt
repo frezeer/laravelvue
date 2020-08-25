@@ -1,0 +1,19 @@
+Hola ese error te sale debido que al intentar compilar mediante el comando "npm run dev" este compila el archivo "webpack.min.js" 
+que a su vez contiene el archivo "app.js" y este intenta compilar el componente "ExampleComponent" que no lo tienes en tu proyecto, 
+si ves dice que esta en la ruta "components" dentro de "resources/js",
+
+Envíame tu correo electrónico para agregarte al repositorio en BitBucket y así puedas ver los cambios que he venido haciendo en el proyecto.
+
+Saludos
+
+hace 4 días
+0
+Hola Diego,
+
+Entonces usas una versión inferior a la 5.8, por lo que veo esa versión no incorpora Vue en el archivo app.js, 
+por otra parte Laragon no crea los archivos "app.js" y "bootstrap.js" 
+estos ya vienen por defecto en el proyecto
+
+En tu archivo "package.json" verifica si incorpora VueJS en tu proyecto de Laravel, 
+sino toca instalarlo y luego replicar lo que tengo en mi código, y ver que error sale o si ya funciona, 
+ya que tienes una versión inferior a la del curso
